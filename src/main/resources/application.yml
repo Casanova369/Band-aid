@@ -1,0 +1,28 @@
+# Database Connection with Spring Interface
+spring:
+  # Security
+  security:
+    user:
+      name: Casanova
+      password: 123
+  # Details for our datasource
+  datasource:
+    username: postgres
+    password: 1234
+    url: jdbc:postgresql://localhost:5432/social_media_system
+    driver-class-name: org.postgresql.Driver
+  # Hibernate properties
+  jpa:
+    show-sql: true
+    database-platform:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+# Server Properties
+server:
+  port: 9090
+  
+  
+
