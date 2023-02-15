@@ -1,17 +1,16 @@
 package br.com.csi.ufsm.security;
 
-import br.com.csi.ufsm.common.behavior.ImplementJwt;
+import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.Claims;
-import io.jsonwebtoken.*;
 import io.jsonwebtoken.SignatureAlgorithm;
-import org.springframework.security.authentication.AuthenticationCredentialsNotFoundException;
-import org.springframework.security.core.Authentication;
+import br.com.csi.ufsm.common.behavior.Jwt;
 import org.springframework.stereotype.Component;
-
+import org.springframework.security.core.Authentication;
+import org.springframework.security.authentication.AuthenticationCredentialsNotFoundException;
 import java.util.Date;
 
 @Component
-public class JwtGenerator implements ImplementJwt {
+public class JwtGenerator implements Jwt {
 
     public String generateToken(Authentication authentication) {
 

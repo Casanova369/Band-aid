@@ -2,7 +2,7 @@ package br.com.csi.ufsm.common.behavior;
 
 import org.springframework.security.core.Authentication;
 
-public interface ImplementJwt {
+public interface Jwt {
 
     long EXPIRE = 70000;
     String SECRET = "SUPER_SECRET_STRING";
