@@ -1,18 +1,24 @@
-# Database Connection with Spring Interface
-spring:
-  # Security
-  security:
+
+custom: # Custom properties
+  welcome: Welcome to this Spring Project
+  
+
+server: # Server Properties
+  port: 9090
+
+spring: # Database Connection with Spring Interface
+  security: # Security
     user:
       name: Casanova
       password: 123
-  # Details for our datasource
-  datasource:
+  
+  datasource: # Datasource Details
     username: postgres
     password: 1234
     url: jdbc:postgresql://localhost:5432/social_media_system
     driver-class-name: org.postgresql.Driver
-  # Hibernate properties
-  jpa:
+
+  jpa: # Hibernate properties
     show-sql: true
     database-platform:
     hibernate:
@@ -20,9 +26,8 @@ spring:
     properties:
       hibernate:
         format_sql: true
-# Server Properties
-server:
-  port: 9090
+
+
   
   
 

@@ -25,3 +25,6 @@ The following guides illustrate how to use some features concretely:
 
 ### Guide for fixing JAXB API error
 [Fixing Abnormal Error](https://stackoverflow.com/questions/43574426/how-to-resolve-java-lang-noclassdeffounderror-javax-xml-bind-jaxbexception)
+
+### Follow Drommin
+[Sprint Jwt Series](https://www.youtube.com/watch?v=_lXYezygtJE&list=PLFYxOYMJUwK3rj0mcB9ubXtrZcNSNdWF3)
